@@ -48,6 +48,20 @@ npm install
 
 ### 4. Run the Bot
 
+#### Using Helper Scripts (Recommended for Multi-Machine Setup)
+
+If you're running the bot on multiple machines (e.g., work laptop and personal laptop):
+
+```bash
+# Start the bot (automatically pulls latest database)
+./start.sh
+
+# After stopping the bot (Ctrl+C), sync your changes
+./stop.sh
+```
+
+#### Manual Commands
+
 ```bash
 # Development (with hot reload)
 npm run dev
