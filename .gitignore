@@ -9,10 +9,11 @@ dist/
 .env.local
 
 # Database
-data/*.db
-data/*.db-journal
-data/*.db-shm
-data/*.db-wal
+# Commented out to allow syncing database across machines
+# data/*.db
+# data/*.db-journal
+# data/*.db-shm
+# data/*.db-wal
 
 # IDE
 .idea/
