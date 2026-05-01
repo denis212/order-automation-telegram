@@ -1,6 +1,6 @@
 import { Context } from 'telegraf';
 import dayjs from 'dayjs';
-import { parseDate, getThisWeekDates, formatShortDate } from '../utils/date-parser.js';
+import { parseDate, getThisWeekDates } from '../utils/date-parser.js';
 import { getOrdersByDateRange } from '../services/order.service.js';
 import { type Order } from '../db/schema.js';
 import { INVOICE_ACCOUNT_NUMBER, INVOICE_PRICE_PER_PORTION } from '../config.js';
