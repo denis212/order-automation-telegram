@@ -104,6 +104,8 @@ export function formatHelp(): string {
 \`/tomorrow\` - Show tomorrow's orders
 \`/check <date>\` - Show orders for date
 \`/week\` - Show this week's orders
+\`/invoice\` - Generate invoice for this week
+\`/invoice <range>\` - Generate invoice for date range
 
 **Managing Orders:**
 \`/delete <name> [date]\` - Delete order
@@ -114,7 +116,9 @@ export function formatHelp(): string {
 \`/order Siti 1 tomorrow\`
 \`/order Andi 1 mon-fri\`
 \`/today\`
-\`/delete Budi tomorrow\``;
+\`/delete Budi tomorrow\`
+\`/invoice\`
+\`/invoice mon-fri\``;
 }
 
 /**
