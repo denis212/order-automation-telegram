@@ -10,6 +10,7 @@ import {
     handleWeek,
     handleDelete,
     handleUpdate,
+    handleInvoice,
 } from './commands/index.js';
 
 // Create bot instance
@@ -43,6 +44,7 @@ bot.command('check', handleCheck);
 bot.command('week', handleWeek);
 bot.command('delete', handleDelete);
 bot.command('update', handleUpdate);
+bot.command('invoice', handleInvoice);
 
 // Handle unknown commands
 bot.on('text', async (ctx) => {
